@@ -2,7 +2,7 @@
     "name": "unglud/dev-bundle",
     "description": "Bundle of composer dependencies usfull for development",
     "license": "MIT",
-    "require-dev": {
+    "require": {
         "symfony/var-dumper": "*",
         "phpunit/phpunit": "*",
         "mockery/mockery": "*",
