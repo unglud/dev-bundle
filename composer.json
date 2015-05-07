@@ -1,0 +1,23 @@
+{
+    "name": "unglud/dev-bundle",
+    "description": "Bundle of composer dependencies usfull for development",
+    "license": "MIT",
+    "require-dev": {
+        "symfony/var-dumper": "*",
+        "phpunit/phpunit": "*",
+        "mockery/mockery": "*",
+        "laracasts/integrated": "*"
+    },
+    "authors": [
+        {
+            "name": "unglued",
+            "email": "alex@apus.ag"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unglued\\": "src"
+        },
+        "files":["src/helpers.php"]
+    },
+}
