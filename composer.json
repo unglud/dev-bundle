@@ -19,5 +19,5 @@
             "Unglued\\": "src"
         },
         "files":["src/helpers.php"]
-    },
+    }
 }
